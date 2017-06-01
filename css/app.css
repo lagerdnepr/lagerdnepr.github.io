@@ -1,0 +1,75 @@
+.photos{cursor:pointer;}
+
+/* Glisse: Overlay */
+#glisse-overlay {
+  background: rgba(0,0,0, 0.3);
+}
+
+#glisse-close {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  position: fixed;
+  top:40px;
+  right:40px;
+  background:red;}
+
+/* Prev/Next button */
+.glisse-next a, .glisse-prev a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: fixed;
+  bottom: 10px;
+}
+
+.glisse-next a {
+  left: 50%;
+  margin-left: 20px; }
+
+.glisse-prev a {
+  left: 50%;
+  margin-left: -40px; }
+
+/* Legend */
+.glisse-legend {
+  position:fixed;
+  display:block;
+  bottom:10px;
+  left:10px;
+  color:white;
+  background:blue;
+}
+
+.photo-stream{
+  font-size: 0;
+  margin: 0 -15px;
+  background-color: rgba(0,143,245,0.5);
+}
+
+.photo-stream li{
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+}
+
+.photo-stream li img{
+  width: 100%;
+  height: auto;
+}
+
+.gallery-content{
+  padding: 50px 0;
+}
+
+/***********slider***********/
+.glisse-next a, .glisse-prev a{
+  display: none;
+}
+
+#glisse-close{
+  display: none
+}
